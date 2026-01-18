@@ -15,4 +15,10 @@
     <ProjectReference Include="..\ZeroDay.Core\ZeroDay.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+  <None Update="Assets\**\*.*">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+
 </Project>
